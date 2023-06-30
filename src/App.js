@@ -10,8 +10,9 @@ function App() {
       </h1>
       <button className='btn btn-primary'>Button</button>
        <WeatherSearch />
-      <footer>
-        <a href='https://github.com/NataliShpak/react-weather-application' target='_blank'>Open-source code on GitHub</a> by Nataliia Shpak
+     
+       <footer>
+        <a href='https://github.com/NataliShpak/react-weather-application' target='_blank' rel="noreferrer">Open-source code on GitHub</a> by Nataliia Shpak
       </footer>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
