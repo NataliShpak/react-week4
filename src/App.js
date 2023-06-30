@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import WeatherSearch from "./WeatherSearch";
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <h1>
         React weather application
       </h1>
-      
+      <button className='btn btn-primary'>Button</button>
        <WeatherSearch />
       <footer>
         <a href='https://github.com/NataliShpak/react-weather-application' target='_blank'>Open-source code on GitHub</a> by Nataliia Shpak
